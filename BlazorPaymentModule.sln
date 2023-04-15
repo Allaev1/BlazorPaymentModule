@@ -5,17 +5,19 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA67ED8A-2EDE-4EFA-82FA-39CD2EB9ED38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorClient", "src\BlazorClient\BlazorClient.csproj", "{A7C6A579-E37E-4D80-B75E-70D8773660BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorClient", "src\BlazorClient\BlazorClient.csproj", "{A7C6A579-E37E-4D80-B75E-70D8773660BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "src\Server\Server.csproj", "{F95F694F-D9A3-4BA3-9412-FCDA6A5DA602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "src\Server\Server.csproj", "{F95F694F-D9A3-4BA3-9412-FCDA6A5DA602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{061FEEF9-AF86-42BD-AEB9-649B3AFA5296}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A7C6A579-E37E-4D80-B75E-70D8773660BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,6 +28,9 @@ Global
 		{F95F694F-D9A3-4BA3-9412-FCDA6A5DA602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F95F694F-D9A3-4BA3-9412-FCDA6A5DA602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F95F694F-D9A3-4BA3-9412-FCDA6A5DA602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7C6A579-E37E-4D80-B75E-70D8773660BF} = {FA67ED8A-2EDE-4EFA-82FA-39CD2EB9ED38}
